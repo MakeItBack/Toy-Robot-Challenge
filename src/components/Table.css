@@ -1,0 +1,10 @@
+.Table-cell {
+   box-sizing: border-box;
+   height: 100px;
+   width: 100px;
+   display: inline-block;
+   border: solid grey;
+   border-radius: 10px;
+   background-color: whitesmoke;
+   color: grey;
+}

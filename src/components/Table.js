@@ -1,6 +1,4 @@
-import "./Table";
-
-function Table() {
+function Table(props) {
    let grid = [];
    for (let y = 4; y >= 0; y--) {
       let row = [];
@@ -16,7 +14,13 @@ function Table() {
             {row.map((square) => {
                return (
                   <div className="Table-cell" id={`Table-square${square.col}-${square.row} `}>
-                     {`(${square.col},${square.row})`}
+                     {square.col === props.location.x && square.row === props.location.y ? (
+                        <img id="Table-robot" src="robot.png" alt="robot sprite" />
+                     ) : (
+                        <p>
+                           ({square.col},{square.row})
+                        </p>
+                     )}
                   </div>
                );
             })}

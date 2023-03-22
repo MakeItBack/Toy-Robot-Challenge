@@ -1,12 +1,22 @@
 import React from "react";
+
 import "./App.css";
 import "./components/Table.css";
+import "./components/Commands.css";
+
 import Table from "./components/Table";
+import Commands from "./components/Commands";
+import Results from "./components/Results";
 
 class App extends React.Component {
-   //  constructor(props) {
-   //     super(props);
-   //  }
+   constructor(props) {
+      super(props);
+      this.state = {
+         location: { x: 0, y: 0 },
+         facing: "north",
+         outputMessage: "An output message will go here",
+      };
+   }
    render() {
       return (
          <div className="App">
@@ -14,10 +24,10 @@ class App extends React.Component {
                <h1>Toy Robot Challenge</h1>
             </header>
             <main>
-               <Table />
+               <Table location={this.state.location} />
                <div className="App-controls">
-                  {/* <Commands /> */}
-                  {/* <Results /> */}
+                  <Commands />
+                  <Results outputMessage={this.state.outputMessage} />
                </div>
             </main>
             <footer className="App-footer">

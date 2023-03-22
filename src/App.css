@@ -8,11 +8,12 @@
 }
 
 .App-controls {
-   height: 100px;
    width: 100%;
-   background-color: whitesmoke;
+   background-color: orange;
    margin-top: 20px;
    border-radius: 10px;
+   display: flex;
+   flex-flow: row nowrap;
 }
 
 .App-footer {

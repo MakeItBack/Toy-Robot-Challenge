@@ -44,7 +44,7 @@ INSERT SCREENSHOT GIF
 
 ## Live Site
 
-This project is [deployed on Netlify](https://toy-robot-challenge.netlify.app/)
+This project is deployed on **Netlify** at **[toy-robot-challenge.netlify.app](https://toy-robot-challenge.netlify.app/)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c11f6b75-05e5-435d-bf81-b02361d79bb3/deploy-status)](https://app.netlify.com/sites/toy-robot-challenge/deploys)
 

@@ -1,4 +1,4 @@
-# Project Name
+# Toy Robot Challenge
 
 <details>
 <summary>Table of content</summary>
@@ -15,20 +15,19 @@
 </details>
 
 ## Summary
-A project that does this<br>
-Extra context e.g. A project built as part of the **Front End Development Libraries** course by **freeCodeCamp**
+Move a robot around a 5x5 board using simple commands<br>
+A coding challenge project built for ReadyTech
 
 ## Technologies
 [
-<img align="left" height="32" width="32" alt="Sass" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" />
-<img align="left" height="32" width="32" alt="NPM" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" />
-<img align="left" height="32" width="32" alt="HTML5" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/html5.svg" />
-<img align="left" height="32" width="32" alt="CSS3" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/css3.svg" />
-<img align="left" height="32" width="32" alt="JavaScript" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg" />
-<img align="left" height="32" width="32" alt="Fontawesome" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/fontawesome.svg" />
+<img align="left" height="32" width="32" alt="React logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" />
+<img align="left" height="32" width="32" alt="NPM logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/npm.svg" />
+<img align="left" height="32" width="32" alt="HTML5 logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/html5.svg" />
+<img align="left" height="32" width="32" alt="CSS3 logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/css3.svg" />
+<img align="left" height="32" width="32" alt="JavaScript logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg" />
 ](https://github.com/MakeItBack/Learning-Tracker)<br>
 
-This project is built with **React** using [Create React App](https://github.com/facebook/create-react-app), [quotes-gen](https://github.com/qxb3/quotes-gen) and [uniqolor](https://github.com/dastoori/uniqolor)
+This project is built with **React** using [Create React App](https://github.com/facebook/create-react-app)
 
 ---
 
@@ -45,17 +44,17 @@ INSERT SCREENSHOT GIF
 
 ## Live Site
 
-This project is [deployed on XXXXX](INSERT LINK)
+This project is [deployed on Netlify](https://toy-robot-challenge.netlify.app/))
 
-INSERT DEPLOYMENT BADGE e.g. NETLIFY
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c11f6b75-05e5-435d-bf81-b02361d79bb3/deploy-status)](https://app.netlify.com/sites/toy-robot-challenge/deploys)
 
 ## Status
-<a href="https://GitHub.com/MakeItBack/Random-Quote-Machine/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
-<a href="https://GitHub.com/MakeItBack/Random-Quote-Machine/commit"><img src="https://img.shields.io/github/last-commit/MakeItBack/Random-Quote-Machine"></a>
+<a href="https://GitHub.com/MakeItBack/Toy-Robot-Challenge/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+<a href="https://GitHub.com/MakeItBack/Toy-Robot-Challenge/commit"><img src="https://img.shields.io/github/last-commit/MakeItBack/Toy-Robot-Challenge"></a>
 
 ## License
 
 This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.
 
-<a href="https://opensource.org/licenses"><img src="https://img.shields.io/github/license/MakeItBack/Random-Quote-Machine?color=dodgerblue"></a><br>
+<a href="https://opensource.org/licenses"><img src="https://img.shields.io/github/license/MakeItBack/Toy-Robot-Challenge?color=dodgerblue"></a><br>
 

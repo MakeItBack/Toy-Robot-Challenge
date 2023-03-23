@@ -17,6 +17,7 @@ class App extends React.Component {
          outputMessage: "Output messages appear here",
          // invalidCommand: false,
       };
+      this.areValidArgs = this.areValidArgs.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
       this.moveIt = this.moveIt.bind(this);
       this.rotateIt = this.rotateIt.bind(this);
@@ -80,6 +81,19 @@ class App extends React.Component {
          this.setState(index === 0 ? { facing: "WEST" } : { facing: cardinals[index - 1] });
       }
    }
+   areValidArgs(column, row, facing) {
+      const columnInteger = parseInt(column, 10);
+      const rowInteger = parseInt(row, 10);
+      if (columnInteger === undefined || rowInteger === undefined || facing === undefined) {
+         return false;
+      } else if (columnInteger < 0 || columnInteger > 4 || rowInteger < 0 || rowInteger > 4) {
+         return false;
+      } else if (!["NORTH", "SOUTH", "EAST", "WEST"].includes(facing)) {
+         return false;
+      } else {
+         return true;
+      }
+   }
 
    handleSubmit(event) {
       event.preventDefault();
@@ -92,10 +106,24 @@ class App extends React.Component {
       );
       switch (event.target[0].value) {
          case "place":
-            // Function to check validity?
-            // check if any values are missing - error
-            // check if all values are valid. (0 to 4) and north, south, east or west
-
+            if (
+               this.areValidArgs(
+                  event.target[1].value,
+                  event.target[2].value,
+                  event.target[3].value
+               )
+            ) {
+               this.setState({
+                  location: {
+                     x: parseInt(event.target[1].value, 10),
+                     y: parseInt(event.target[2].value, 10),
+                  },
+                  facing: event.target[3].value,
+                  outputMessage: "Robot placed in new position",
+               });
+            } else {
+               this.setState({ outputMessage: "INVALID COMMAND" });
+            }
             break;
          case "move":
             this.moveIt(this.state.facing);
@@ -113,13 +141,11 @@ class App extends React.Component {
                outputMessage: `Location: (${this.state.location.x},${this.state.location.y}) Facing ${this.state.facing}`,
             });
             break;
-
          default:
             this.setState({ outputMessage: "INVALID COMMAND" });
             break;
       }
    }
-
    render() {
       return (
          <div className="App">

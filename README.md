@@ -31,7 +31,7 @@ This project is built with **React** using [Create React App](https://github.com
 
 ---
 
-INSERT SCREENSHOT GIF
+![App screenshot](screencapture.gif)
 
 ---
 

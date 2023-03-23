@@ -14,6 +14,10 @@
    justify-content: space-around;
 }
 
+.Commands-input label {
+   padding: 4px 0 4px 0;
+}
+
 #Commands-types {
    width: 80px;
    padding: 5px;
@@ -39,7 +43,7 @@
 
 #Commands-submit {
    padding: 3px;
-   width: 95%;
+   width: 97%;
    padding: 6px;
    border-radius: 6px;
    border: none;

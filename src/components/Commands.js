@@ -1,6 +1,6 @@
 function Commands(props) {
    return (
-      <form id="Commands-form">
+      <form id="Commands-form" onSubmit={props.handleSubmit}>
          <div className="Commands-input">
             <label for="Commands-types">Command Type </label>
             <select name="commandTypes" id="Commands-types">
@@ -21,7 +21,9 @@ function Commands(props) {
          </div>
 
          <div className="Commands-input">
-            <input type="submit" id="Commands-submit" value="GO" />
+            <button type="submit" id="Commands-submit">
+               SEND COMMAND
+            </button>
          </div>
       </form>
    );

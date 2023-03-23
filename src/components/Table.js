@@ -7,7 +7,8 @@ function Table(props) {
       }
       grid.push(row);
    }
-   console.log(grid);
+   // console.log(grid);
+
    return grid.map((row) => {
       return (
          <div className="Table-row">
@@ -15,7 +16,12 @@ function Table(props) {
                return (
                   <div className="Table-cell" id={`Table-square${square.col}-${square.row} `}>
                      {square.col === props.location.x && square.row === props.location.y ? (
-                        <img id="Table-robot" src="robot.png" alt="robot sprite" />
+                        <img
+                           id="Table-robot"
+                           src="robot.png"
+                           alt="robot sprite"
+                           className={`Table-img-${props.facing.toLowerCase()}`}
+                        />
                      ) : (
                         <p>
                            ({square.col},{square.row})

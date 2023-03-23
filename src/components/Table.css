@@ -14,3 +14,14 @@
 #Table-robot {
    height: 90%;
 }
+
+.Table-img-east {
+   transform: rotate(90deg);
+}
+
+.Table-img-south {
+   transform: rotate(180deg);
+}
+.Table-img-west {
+   transform: rotate(270deg);
+}

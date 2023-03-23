@@ -56,5 +56,4 @@ This project is deployed on **Netlify** at **[toy-robot-challenge.netlify.app](h
 
 This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.
 
-<a href="https://opensource.org/licenses"><img src="https://img.shields.io/github/license/MakeItBack/Toy-Robot-Challenge?color=dodgerblue"></a><br>
-
+<a href="https://opensource.org/licenses"><img src="https://img.shields.io/github/license/MakeItBack/toy-robot-challenge?color=dodgerblue"></a><br>

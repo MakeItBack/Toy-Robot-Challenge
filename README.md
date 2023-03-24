@@ -16,7 +16,7 @@
 
 ## Summary
 Move a toy robot around a 5x5 grid using simple commands<br>
-A coding challenge project built for ReadyTech
+A coding challenge built for ReadyTech
 
 ## Technologies
 [

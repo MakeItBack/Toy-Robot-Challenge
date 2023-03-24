@@ -2,7 +2,9 @@ function Commands(props) {
    return (
       <form id="Commands-form" onSubmit={props.handleSubmit}>
          <div className="Commands-input">
-            <label for="Commands-types">Command Type </label>
+            <label for="Commands-types" id="Commands-types-label">
+               Command Type{" "}
+            </label>
             <select name="commandTypes" id="Commands-types">
                <option value="place">place</option>
                <option value="move">move</option>

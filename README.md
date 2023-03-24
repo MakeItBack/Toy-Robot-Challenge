@@ -70,6 +70,8 @@ Note: Valid inputs for ``Facing`` are NORTH, SOUTH, EAST or WEST (i.e. uppercase
 - Add sounds
 - Improved visual design
 - Add animations
+- Disable/hide the ``row``, ``column`` and ``facing`` fields when not needed i.e. when ``place`` not selected
+- Clear the values from ``row``, ``column`` and ``facing`` after command has been actioned
 
 ## Live Site
 

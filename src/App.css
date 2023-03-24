@@ -1,12 +1,14 @@
 .App {
    width: 700px;
 }
-.App-header {
-   font-size: 1.2rem;
+.App-header h1 {
+   font-size: 2rem;
    color: orange;
-   margin: 25px 0 25px 0;
+   margin: 25px 0 0 0;
 }
-
+.App-main {
+   margin: 25px 0 0 0;
+}
 .App-controls {
    width: 100%;
    background-color: orange;
@@ -40,4 +42,16 @@
 
 .App-footer span {
    font-weight: 700;
+}
+
+@media screen and (max-height: 850px) {
+   .App-footer {
+      visibility: hidden;
+   }
+}
+
+@media screen and (max-height: 770px) {
+   .App-header {
+      display: none;
+   }
 }

@@ -152,7 +152,7 @@ class App extends React.Component {
             <header className="App-header">
                <h1>Toy Robot Challenge</h1>
             </header>
-            <main>
+            <main className="App-main">
                <Table location={this.state.location} facing={this.state.facing} />
                <div className="App-controls">
                   <Commands handleSubmit={this.handleSubmit} />

@@ -57,7 +57,7 @@ Move the robot anywhere on the 5x5 grid using commands available in the yellow p
 1) Select a command from the the ``Command Type`` dropdown box at the top of the yellow panel
 2) **IF** you have selected **place** you **must also complete** the ``Column`` ``Row`` and ``Facing`` fields with **valid values**. Otherwise you can ignore them.
 3) Click the green ``SEND COMMAND`` button to send the command to the robot.
-4) Feedback is displayed in the grey panel to the right of the command inputs. This will either confirm the action was successfully taken or notifiy you of an invalid command (no action taken). Examples of invalid commands are any that would move the robot outside the grid or providing incomplete or otherwise invalid inputs. 
+4) Feedback is displayed in the grey panel to the right of the command inputs. This will either confirm the action was successful or notifiy you of an invalid command (no action taken). Examples of invalid commands are moves that would send the robot outside of the grid or providing incomplete or otherwise invalid inputs. 
 
 Note: Valid inputs for ``Facing`` are NORTH, SOUTH, EAST or WEST (i.e. uppercase only)  
 

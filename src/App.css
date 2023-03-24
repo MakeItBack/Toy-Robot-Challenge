@@ -4,10 +4,10 @@
 .App-header h1 {
    font-size: 2rem;
    color: orange;
-   margin: 25px 0 0 0;
+   margin: 25px 0 20px 0;
 }
 .App-main {
-   margin: 25px 0 0 0;
+   margin: 5px 0 0 0;
 }
 .App-controls {
    width: 100%;

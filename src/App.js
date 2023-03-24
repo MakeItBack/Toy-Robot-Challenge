@@ -138,7 +138,7 @@ class App extends React.Component {
             break;
          case "report":
             this.setState({
-               outputMessage: `Location: (${this.state.location.x},${this.state.location.y}) Facing ${this.state.facing}`,
+               outputMessage: `Location: (${this.state.location.x},${this.state.location.y}) Facing: ${this.state.facing} (${this.state.location.x},${this.state.location.y},${this.state.facing})`,
             });
             break;
          default:

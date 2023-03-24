@@ -7,6 +7,7 @@ function Results(props) {
       color: "whitesmoke",
       width: "30%",
       boxSizing: "border-box",
+      fontSize: "0.9rem",
    };
 
    return <p style={styles}>{props.outputMessage}</p>;

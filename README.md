@@ -15,8 +15,8 @@
 </details>
 
 ## Summary
-Move a robot around a 5x5 board using simple commands<br>
-A coding challenge project built for ReadyTech
+Move a toy robot around a 5x5 grid using simple commands<br>
+A coding challenge built for [ReadyTech](https://www.readytech.com.au/)
 
 ## Technologies
 [
@@ -37,7 +37,7 @@ This project is built with **React** using [Create React App](https://github.com
 
 ## Instructions
 
-This game be played at **[toy-robot-challenge.netlify.app](https://toy-robot-challenge.netlify.app/)**<br>
+This game can be played at **[toy-robot-challenge.netlify.app](https://toy-robot-challenge.netlify.app/)**<br>
 Move the robot anywhere on the 5x5 grid using commands available in the yellow panel
 
 ### Orientate yourself on the grid
@@ -54,11 +54,12 @@ Move the robot anywhere on the 5x5 grid using commands available in the yellow p
 
 ### To operate the robot
 
-1) Select a command from the The ``Command type`` dropdown box
-2) **IF** you have selected **place** you must also complete the ``Column`` ``Row`` and ``Facing`` fields with valid values. Otherwise you can ignore them.
+1) Select a command from the the ``Command Type`` dropdown box at the top of the yellow panel
+2) **IF** you have selected **place** you **must also complete** the ``Column`` ``Row`` and ``Facing`` fields with **valid values**. Otherwise you can ignore them.
 3) Click the green ``SEND COMMAND`` button to send the command to the robot.
-4) Feedback is displayed in the grey panel to the right of the command inputs. This will either be acknowledging the previous action or notifiying you of an invalid command. Examples of invalid commands are attempting to move the robot outside the grid or providing incomplete or otherwise invalid inputs. 
+4) Feedback is displayed in the grey panel to the right of the command inputs. This will either confirm the action was successfully taken or notifiy you of an invalid command (no action taken). Examples of invalid commands are any that would move the robot outside the grid or providing incomplete or otherwise invalid inputs. 
 
+Note: Valid inputs for ``Facing`` are NORTH, SOUTH, EAST or WEST (i.e. uppercase only)  
 
 ## Updates
 
@@ -69,6 +70,8 @@ Move the robot anywhere on the 5x5 grid using commands available in the yellow p
 - Add sounds
 - Improved visual design
 - Add animations
+- Disable/hide the ``row``, ``column`` and ``facing`` fields when not needed i.e. when ``place`` not selected
+- Clear the values from ``row``, ``column`` and ``facing`` after command has been actioned
 
 ## Live Site
 

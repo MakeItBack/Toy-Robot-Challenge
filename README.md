@@ -37,7 +37,7 @@ This project is built with **React** using [Create React App](https://github.com
 
 ## Instructions
 
-This game be played at **[toy-robot-challenge.netlify.app](https://toy-robot-challenge.netlify.app/)**<br>
+This game can be played at **[toy-robot-challenge.netlify.app](https://toy-robot-challenge.netlify.app/)**<br>
 Move the robot anywhere on the 5x5 grid using commands available in the yellow panel
 
 ### Orientate yourself on the grid

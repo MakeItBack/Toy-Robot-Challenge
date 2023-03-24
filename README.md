@@ -54,7 +54,7 @@ Move the robot anywhere on the 5x5 grid using commands available in the yellow p
 
 ### To operate the robot
 
-1) Select a command from the The ``Command Type`` dropdown box
+1) Select a command from the the ``Command Type`` dropdown box
 2) **IF** you have selected **place** you must also complete the ``Column`` ``Row`` and ``Facing`` fields with valid values. Otherwise you can ignore them.
 3) Click the green ``SEND COMMAND`` button to send the command to the robot.
 4) Feedback is displayed in the grey panel to the right of the command inputs. This will either be acknowledging the previous action or notifiying you of an invalid command. Examples of invalid commands are attempting to move the robot outside the grid or providing incomplete or otherwise invalid inputs. 

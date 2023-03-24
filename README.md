@@ -37,10 +37,38 @@ This project is built with **React** using [Create React App](https://github.com
 
 ## Instructions
 
+This game be played at **[toy-robot-challenge.netlify.app](https://toy-robot-challenge.netlify.app/)**<br>
+Move the robot anywhere on the 5x5 grid using commands available in the yellow panel
+
+### Orientate yourself on the grid
+- The grid squares are numbered 0 to 4 in the x and y directions like a typical map grid reference (x,y). i.e. Left to right (column# / x-direction) then bottom to top (row# / y-direction). So bottom left is (0,0) and top right is (4,4)
+- The grid also uses the 4 cardinal directions of the compass where the top is NORTH, right side is EAST, left side is WEST and bottom is SOUTH
+
+### Description of the available commands
+
+- **place** - teleports the robot to any square on the grid. 
+- **move** - advances the robot one square in the direction it is facing
+- **left** - rotate the robot anticlockwise to the next primary cardinal direction
+- **right** - rotate the robot clockwise to the next primary cardinal direction
+- **report** - asks the robot to report it's current position on the grid and the direction it's facing
+
+### To operate the robot
+
+1) Select a command from the The ``Command type`` dropdown box
+2) **IF** you have selected **place** you must also complete the ``Column`` ``Row`` and ``Facing`` fields with valid values. Otherwise you can ignore them.
+3) Click the green ``SEND COMMAND`` button to send the command to the robot.
+4) Feedback is displayed in the grey panel to the right of the command inputs. This will either be acknowledging the previous action or notifiying you of an invalid command. Examples of invalid commands are attempting to move the robot outside the grid or providing incomplete or otherwise invalid inputs. 
+
 
 ## Updates
 
-
+#### Ideas for future improvements
+- Add a graphic displaying cardinal directions
+- Make the design more responsive for different screen sizes
+- A better robot sprite image!
+- Add sounds
+- Improved visual design
+- Add animations
 
 ## Live Site
 
